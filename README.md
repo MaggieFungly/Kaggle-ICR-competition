@@ -9,3 +9,4 @@ This repository contains the models and code used in the [ICR Competition](https
 - We utilize an ensemble of tree-based models including XGBoost and LightGBM.
 - A Logistic Regression model is used to stack predictions from both XGBoost and LightGBM, producing the final output.
 - This ensemble approach leverages the strengths of each individual model to improve overall predictive performance.
+- Over-sampling is employed to handle class imbalance, and each model is tuned with Optuna.
